@@ -1,12 +1,35 @@
 import { Template } from 'meteor/templating';
 import { Ilnesses, Remedy, Products } from '../api/servercode.js';
+const readmore = require('readmore-js');
+
+
+
+
+
+
 import './body.html';
+
 
 
 //onload function
 Template.body.rendered = function() {
     //initialize autocomplete search input
     Meteor.typeahead.inject();
+   // $('.readmore2').readmore({collapsedHeight:30});
+
+};
+
+Template.remedy_result.rendered = function() {
+
+    $('.readmore2').readmore({collapsedHeight:35});
+
+};
+
+Template.body.rendered = function() {
+    //initialize autocomplete search input
+    Meteor.typeahead.inject();
+    $('.readmore2').readmore({collapsedHeight:30});
+
 };
 
 //Subscriptions
@@ -14,6 +37,7 @@ Template.body.onCreated(function bodyOnCreated() {
     Meteor.subscribe('remedy');
     Meteor.subscribe('illness');
     Meteor.subscribe('product');
+
 });
 
 

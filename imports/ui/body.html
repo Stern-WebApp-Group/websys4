@@ -37,7 +37,7 @@
             <form class="navbar-form navbar-left">
                 <div class="form-group">
                     <!--autocomplete search-->
-                    <input type="text" class="form-control typeahead" placeholder="Search for..." data-source="illnessSearch" data-select="selected">
+                    <input type="text" class="form-control typeahead" data-autoselect="true" data-min-length="0" placeholder="Search for..." data-source="illnessSearch" data-select="selected">
                 </div>
             </form>
         </div><!-- /.navbar-collapse -->
@@ -102,8 +102,8 @@
         </div>
 
         <div class="panel-body">
-            {{Description}}
-            <Br><br>
+           <div class="readmore2">{{Description}}</div>
+            <Br>
 
             <!-- Button trigger modal -->
             <button type="button" id="{{Remedy_ID}}" name="rbutton" class="btn btn btn-default remedy_button" data-toggle="modal" data-target="#myModal">
