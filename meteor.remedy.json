@@ -1,0 +1,140 @@
+{
+    "_id" : ObjectId("5a1987bc68d468112ca97f0d"),
+    "Remedy" : "Chicken Soup",
+    "Description" : "Research suggests that enjoying a bowl of chicken soup with vegetables, prepared from scratch or warmed from a can, can slow the movement of neutrophils in your body. Neutrophils are a common type of white blood cell. They help protect your body from infection. When they're moving slowly, they stay more concentrated in the areas of your body that require the most healing. The study found that chicken soup was effective for reducing the symptoms of upper respiratory infections in particular. Low-sodium soup also carries great nutritional value and helps keep you hydrated. It's a good choice, no matter how you're feeling.",
+    "illness" : "Cold",
+    "Remedy_ID" : NumberInt(1)
+}
+{
+    "_id" : ObjectId("5a1987bc68d468112ca97f0e"),
+    "Remedy" : "Honey",
+    "Description" : "Honey has a variety of antibacterial and antimicrobial properties. Drinking honey in tea with lemon can ease sore throat pain. Research suggests that honey is an effective cough suppressant, too. In one study, researchers found that giving children 10 grams of honey at bedtime reduced the severity of their cough symptoms. The children reportedly slept more soundly, which also helps reduce cold symptoms.",
+    "illness" : "Cold",
+    "Remedy_ID" : NumberInt(2)
+}
+{
+    "_id" : ObjectId("5a1987bc68d468112ca97f0f"),
+    "Remedy" : "Ginger",
+    "Description" : "The health benefits of ginger root have been touted for centuries, but now we have scientific proof of its curative properties. A few slices of raw ginger root in boiling water may help soothe a cough or sore throat.",
+    "illness" : "Cold",
+    "Remedy_ID" : NumberInt(3)
+}
+{
+    "_id" : ObjectId("5a1987bc68d468112ca97f10"),
+    "Remedy" : "Garlic",
+    "Description" : "Garlic contains the compound allicin, which may have antimicrobial properties. Adding a garlic supplement to your diet might reduce the severity of cold symptoms. According to some research, it might even help you avoid getting sick in the first place.",
+    "illness" : "Cold",
+    "Remedy_ID" : NumberInt(4)
+}
+{
+    "_id" : ObjectId("5a1987bc68d468112ca97f11"),
+    "Remedy" : "Echinacea",
+    "Description" : "Native Americans have used the herb and root of the echinacea plant to treat infections for more than 400 years. Its active ingredients include flavonoids, chemicals that have many therapeutic effects on the body. For example, flavonoids can boost your immune system and reduce inflammation. Research on the herbâ€™s effectiveness at fighting the common cold and flu has been mixed. But one review suggests that taking echinacea may lower your risk of developing the common cold by more than 50 percent. It may also reduce the length of a cold.",
+    "illness" : "Cold",
+    "Remedy_ID" : NumberInt(5)
+}
+{
+    "_id" : ObjectId("5a1987bc68d468112ca97f12"),
+    "Remedy" : "Probiotics",
+    "Description" : "Probiotics are â€œfriendlyâ€� bacteria and yeast that are found in your body, some foods, and supplements. They can help keep your gut and immune system healthy, and research indicates that probiotics may reduce your chance of getting sick with an upper respiratory infection.",
+    "illness" : "Cold",
+    "Remedy_ID" : NumberInt(6)
+}
+{
+    "_id" : ObjectId("5a1987bc68d468112ca97f13"),
+    "Remedy" : "Vitamin C",
+    "Description" : "Vitamin C plays an important role in your body and has many health benefits. Along with limes, oranges, grapefruits, leafy greens, and other fruits and vegetables, lemons are a good source of vitamin C. Adding fresh lemon juice to hot tea with honey may reduce phlegm when youâ€™re sick. Drinking hot or cold lemonade may also help. While these drinks may not clear up your cold entirely, they can help you get the vitamin C that your immune system needs. Getting enough vitamin C can relieve upper respiratory tract infections and other illnesses.",
+    "illness" : "Cold",
+    "Remedy_ID" : NumberInt(7)
+}
+{
+    "_id" : ObjectId("5a1987bc68d468112ca97f14"),
+    "Remedy" : "Lemon Juice",
+    "Description" : "The natural astringent and antibacterial properties of lemon juice are great for clearing up skin. To get the best results, just apply the lemon juice directly to the skin and leave it for up to an hour.",
+    "illness" : "Acne",
+    "Remedy_ID" : NumberInt(8)
+}
+{
+    "_id" : ObjectId("5a1987bc68d468112ca97f15"),
+    "Remedy" : "Apple Cider Vinegar",
+    "Description" : "Sort of along the same lines as lemon juice, apple cider vinegar has the same antibacterial properties, as well as antifungal properties as well. Apple cider vinegar is very powerful though, so you might want to dilute it when you use it, at least at first. Just apply a small amount to your skin, but make sure that you choose pure, undiluted vinegar for best results.",
+    "illness" : "Acne",
+    "Remedy_ID" : NumberInt(9)
+}
+{
+    "_id" : ObjectId("5a1987bc68d468112ca97f16"),
+    "Remedy" : "Baking Soda",
+    "Description" : "Baking soda is a great option for clearing up blemishes, itâ€™s cheap, it's natural, and it doesn't contain any harmful chemicals or other ingredients. The benefits of baking soda are many: it exfoliates, it reduces inflammation, and it clears up skin. All you have to do is use warm water and baking soda to make a paste. Then, apply the paste to your skin like a mask. Leave it on for up to an hour, and then rinse. You will be amazed at the results.",
+    "illness" : "Acne",
+    "Remedy_ID" : NumberInt(10)
+}
+{
+    "_id" : ObjectId("5a1987bc68d468112ca97f17"),
+    "Remedy" : "Egg Whites",
+    "Description" : "Egg whites also make a great home remedy for getting rid of pimples. To use this method, simply separate the egg white from the yolk. Then, you can use a cotton swab, cotton ball, or simply your fingers to apply the egg white to your skin. Your skin will glow and begin to tighten. Leave the egg white mixture on your skin for up to an hour for best results.",
+    "illness" : "Acne",
+    "Remedy_ID" : NumberInt(11)
+}
+{
+    "_id" : ObjectId("5a1987bc68d468112ca97f18"),
+    "Remedy" : "Tea Tree Oil",
+    "Description" : "Tee tree oil is a very common home remedy for many conditions, but especially for acne and other skin conditions. Tea tree oil is able to break up clogged pores, clear out dead skin cells,and keep acne from coming back. To use tee tree oil for acne, mix one part oil to six to nine parts water, depending on how strong you want the mixture to be. Apply directly to the skin using cotton balls,and leave it on for around 30 minutes. You can moisturize afterwards, but be sure that you never use tea tree oil undiluted.",
+    "illness" : "Acne",
+    "Remedy_ID" : NumberInt(12)
+}
+{
+    "_id" : ObjectId("5a1987bc68d468112ca97f19"),
+    "Remedy" : "Yoga Breathing Exercises",
+    "Description" : "Stress may trigger asthma symptoms. Breathing exercises used in yoga have been found to help some people with asthma control breathing and relieve stress, a common asthma trigger.",
+    "illness" : "Asthma",
+    "Remedy_ID" : NumberInt(13)
+}
+{
+    "_id" : ObjectId("5a1987bc68d468112ca97f1a"),
+    "Remedy" : "Acupunture",
+    "Description" : "While some people with asthma have found that acupuncture can help reduce asthma attacks and improve breathing, studies are not conclusive.",
+    "illness" : "Asthma",
+    "Remedy_ID" : NumberInt(14)
+}
+{
+    "_id" : ObjectId("5a1987bc68d468112ca97f1b"),
+    "Remedy" : "Biofeedback",
+    "Description" : "Learning to control heart rate may be helpful with asthma management but more studies are needed to confirm a benefit.",
+    "illness" : "Asthma",
+    "Remedy_ID" : NumberInt(15)
+}
+{
+    "_id" : ObjectId("5a1987bc68d468112ca97f1c"),
+    "Remedy" : "Steam Baths",
+    "Description" : "Steam baths may relieve some of the symptoms because it may provide moisture to the airways.Though steam can be dangerously hot, so in some asthmatics, it can exacerbate symptoms. Steam baths may help offset some symptoms, particularly nasal stuffiness.",
+    "illness" : "Asthma",
+    "Remedy_ID" : NumberInt(16)
+}
+{
+    "_id" : ObjectId("5a1987bc68d468112ca97f1d"),
+    "Remedy" : "Ginger",
+    "Description" : "Ginger is thought to decrease inflammation, and a recent study did show that oral ginger supplements were linked to improvement in asthma symptoms. The study didn't show, however, that ginger use led to any improvement in actual lung function",
+    "illness" : "Asthma",
+    "Remedy_ID" : NumberInt(17)
+}
+{
+    "_id" : ObjectId("5a1987bc68d468112ca97f1e"),
+    "Remedy" : "Garlic",
+    "Description" : "Garlic contains the compound allicin, which may have antimicrobial properties. Adding a garlic supplement to your diet might reduce the severity of cold symptoms. According to some research, it might even help you avoid getting sick in the first place.",
+    "illness" : "Meningitis",
+    "Remedy_ID" : NumberInt(18)
+}
+{
+    "_id" : ObjectId("5a1987bc68d468112ca97f1f"),
+    "Remedy" : "Olive Leaf Extract",
+    "Description" : "For a proper herbal approach to treating meningitis, you can turn to olive leaf extract, which is praised for its antiviral and antioxidant properties, in addition to its proven anti-inflammatory abilities. When it comes to meningitis, you can take olive leaf extracts in any number of forms to reduce inflammation, lower fever, and ease pain and discomfort associated with this serious condition.",
+    "illness" : "Meningitis",
+    "Remedy_ID" : NumberInt(19)
+}
+{
+    "_id" : ObjectId("5a1987bc68d468112ca97f20"),
+    "Remedy" : "Chlorella",
+    "Description" : "One of the most well known home remedies for meningitis is chlorella, a small plant that packs a major punch, namely due to its impressive chlorophyll content. Although chlorophyll is typically associated with plants and energy production, it is remarkably similar in structure to our own haemoglobin, and can therefore boost red blood cell production, which increases oxygenation, purifies the blood, and helps to speed up recovery and repair of the damage from meningitis.",
+    "illness" : "Meningitis",
+    "Remedy_ID" : NumberInt(20)
+}
