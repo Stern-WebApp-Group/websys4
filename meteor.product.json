@@ -1,0 +1,168 @@
+{
+    "_id" : ObjectId("5a1aedcb68d4683f5c8df034"),
+    "ProductName" : "Progresso Chicken Noodle Soup",
+    "ProductDesc" : "The Progresso Traditional Soups are pretty special. They're the classics. The favorites. All made with quality ingredients and years of practice to get it just right.",
+    "Source" : "Amazon",
+    "Price" : "1.25",
+    "OrderSize" : "19 Oz Can",
+    "URL" : "https://www.amazon.com/Progresso-Soup-Traditional-Chicken-Noodle/dp/B017XKQUXU/ref=sr_1_1_sspa?s=grocery&ie=UTF8&qid=1511535401&sr=1-1-spons&keywords=chicken+soup&psc=1",
+    "Remedy_ID" : NumberInt(1)
+}
+{
+    "_id" : ObjectId("5a1aedcb68d4683f5c8df035"),
+    "ProductName" : "Nature Nates Unfiltered Honey",
+    "ProductDesc" : "Nature Nate's Raw & Unfiltered Honey is Made by American Bees and comes straight from the hive - just as nature intended. It has not been cooked, and the pollens have not been filtered out. Each batch is tested for a high pollen count and a clean read of corn syrup adulteration, pesticides, herbicides and antibiotics before going into your bottle. Choose the size that fits your family best.",
+    "Source" : "Amazon",
+    "Price" : "9.66",
+    "OrderSize" : "32 Oz Bottle",
+    "URL" : "https://www.amazon.com/Nature-Nates-Ounce-Unfiltered-Honey/dp/B00CMQD3VS/ref=sr_1_4_s_it?s=grocery&ie=UTF8&qid=1511535542&sr=1-4&keywords=honey",
+    "Remedy_ID" : NumberInt(2)
+}
+{
+    "_id" : ObjectId("5a1aedcb68d4683f5c8df036"),
+    "ProductName" : "Simply Organic Certified Container",
+    "ProductDesc" : "We're Simply Organic. Our goal is to enrich people's lives with an honest promise of freshness, quality and taste that can only come from organically grown foods. We celebrate life, honor tradition and value nature. Certified organic by Quality Assurance.",
+    "Source" : "Amazon",
+    "Price" : "3.95",
+    "OrderSize" : "1.64 Oz Bottle",
+    "URL" : "https://www.amazon.com/Simply-Organic-Certified-1-64-Ounce-Container/dp/B000WS3AMU/ref=sr_1_5_s_it?s=grocery&ie=UTF8&qid=1511535585&sr=1-5&keywords=ginger",
+    "Remedy_ID" : NumberInt(3)
+}
+{
+    "_id" : ObjectId("5a1aedcb68d4683f5c8df037"),
+    "ProductName" : "Fresh Garlic",
+    "ProductDesc" : "Sharing the same family tree as onions, leeks and shallots, this fragrant bulb has been adding flavor to dishes around the world for thousands of years.",
+    "Source" : "Amazon",
+    "Price" : "0.99",
+    "OrderSize" : "one unit",
+    "URL" : "https://www.amazon.com/produce-aisle-Medium-Garlic-Bulb/dp/B000NSFQJE/ref=sr_1_4_s_f_it?s=grocery&ie=UTF8&qid=1511535605&sr=1-4&ppw=fresh&keywords=garlic",
+    "Remedy_ID" : NumberInt(4)
+}
+{
+    "_id" : ObjectId("5a1aedcb68d4683f5c8df038"),
+    "ProductName" : "Nature Bounty Echinacea",
+    "ProductDesc" : "Nature's Bounty Echinacea & Goldenseal is one of the world’s leading herbs for immune system support. Echinacea promotes the body’s natural defense system. These capsules can be used any time of the year.",
+    "Source" : "Amazon",
+    "Price" : "5.45",
+    "OrderSize" : "100 Capsules",
+    "URL" : "https://www.amazon.com/Natures-Bounty-Echinacea-Natural-Capsules/dp/B000GG15L6/ref=sr_1_4_s_it?s=hpc&ie=UTF8&qid=1511535605&sr=1-4&keywords=echinacea",
+    "Remedy_ID" : NumberInt(5)
+}
+{
+    "_id" : ObjectId("5a1aedcb68d4683f5c8df039"),
+    "ProductName" : "Nutrition Essentials Probiotic",
+    "ProductDesc" : "HIGHEST NUMBER OF CFUS PER SERVING AND 2X MORE THAN SIMILAR PROBIOTIC SUPPLEMENTS for Better Digestive Health, Immunity and Bowel Regularity. 60 Tablets - 60 Day supply - Comes with a 100% NO-QUESTIONS-ASKED Moneyback Guarantee!",
+    "Source" : "Amazon",
+    "Price" : "18.99",
+    "OrderSize" : "60 Tablets",
+    "URL" : "https://www.amazon.com/Nutrition-Essentials-Rated-Probiotic-Moneyback/dp/B00L3JTHME/ref=sr_1_2_sspa?s=hpc&ie=UTF8&qid=1511535635&sr=1-2-spons&keywords=probiotic&psc=1",
+    "Remedy_ID" : NumberInt(6)
+}
+{
+    "_id" : ObjectId("5a1aedcb68d4683f5c8df03a"),
+    "ProductName" : "Nature Bounty Vitamin C",
+    "ProductDesc" : "Nature's Bounty Vitamin C is one of the most well-known and widely used nutritonal supplements on the planet! People reach for Nature's Bounty Vitamin C to help them get the essential benefits their body relies on every day!",
+    "Source" : "Amazon",
+    "Price" : "8.35",
+    "OrderSize" : "250 Tablets",
+    "URL" : "https://www.amazon.com/Natures-Bounty-Vitamin-500mg-Tablets/dp/B000GG87V2/ref=sr_1_4_s_it?s=grocery&ie=UTF8&qid=1511535655&sr=1-4&keywords=vitamin+c",
+    "Remedy_ID" : NumberInt(7)
+}
+{
+    "_id" : ObjectId("5a1aedcb68d4683f5c8df03b"),
+    "ProductName" : "ReaLemon Lemon Juice",
+    "ProductDesc" : "ReaLemon is 100% real lemon juice made from concentrate, and it’s a great alternative to the hassle of fresh lemons. ReaLemon is a space-saving kitchen sidekick, ideal for adding a delicious twist of lemon to your favorite seafood and poultry recipes, plus it’s great in marinades and it brightens up both hot and cold beverages. Since 1934, ReaLemon has been a trusted brand to deliver quality lemon juice.",
+    "Source" : "Amazon",
+    "Price" : "1.39",
+    "OrderSize" : "8 fl oz bottle",
+    "URL" : "https://www.amazon.com/ReaLemon-100-Lemon-Juice-bottle/dp/B000SRI61U/ref=sr_1_1_a_it?ie=UTF8&qid=1511535936&sr=8-1&keywords=lemon+juice",
+    "Remedy_ID" : NumberInt(8)
+}
+{
+    "_id" : ObjectId("5a1aedcb68d4683f5c8df03c"),
+    "ProductName" : "Bragg USDA Gluten Free Organic Raw Apple Cider Vinegar",
+    "ProductDesc" : "Weight loss booster, all-purpose cleaner, stomach soother. A popular kitchen staple, apple cider vinegar (ACV) dates back to ancient times: it’s said to have been used by Hippocrates himself. And while times have changed a lot since then, ACV is still a versatile, well-known item in many homes.",
+    "Source" : "Amazon",
+    "Price" : "Varied",
+    "OrderSize" : "Varied",
+    "URL" : "https://www.amazon.com/Bragg-Organic-Unfiltered-Apple-Vinegar/dp/B001ID6MIC/ref=sr_1_3_a_it?ie=UTF8&qid=1511535964&sr=8-3&keywords=apple+cider+vinegar",
+    "Remedy_ID" : NumberInt(9)
+}
+{
+    "_id" : ObjectId("5a1aedcb68d4683f5c8df03d"),
+    "ProductName" : "Arm Hammer Pure Baking Soda",
+    "ProductDesc" : "Pure baking soda - no additives or fillers.",
+    "Source" : "Amazon",
+    "Price" : "11.14",
+    "OrderSize" : "1 lb. Box Pack of 2",
+    "URL" : "https://www.amazon.com/Hammer-Pure-Baking-Soda-Pack/dp/B074SJQT9J/ref=sr_1_1_sspa?s=grocery&ie=UTF8&qid=1511535980&sr=1-1-spons&keywords=Baking+Soda&psc=1&smid=A3B9YUBNGCFPLC",
+    "Remedy_ID" : NumberInt(10)
+}
+{
+    "_id" : ObjectId("5a1aedcb68d4683f5c8df03e"),
+    "ProductName" : "Abbotsford Farms Cage Free Liquid Egg Whites",
+    "ProductDesc" : "Abbotsford Farms is an American Humane Certified egg producer. Which means our eggs come from farms that always follow strict guidelines in the care and well-being of the hens. Cage free chickens are free to engage in natural habits such as running, perching, roosting and laying eggs in nests. This vigilance provides customers with peace of mind knowing our egg products come from happy, healthy hens.",
+    "Source" : "Amazon",
+    "Price" : "9.99",
+    "OrderSize" : "16 Oz Bottle",
+    "URL" : "https://www.amazon.com/Abbotsford-Farms-Cage-Liquid-Whites/dp/B00L35T5F2/ref=sr_1_2_a_f_it?ie=UTF8&qid=1511535994&sr=8-2&ppw=fresh&keywords=egg+whites",
+    "Remedy_ID" : NumberInt(11)
+}
+{
+    "_id" : ObjectId("5a1aedcb68d4683f5c8df03f"),
+    "ProductName" : "Tea Tree Essential Oil Pure and Natural with Therapeutic Grade",
+    "ProductDesc" : "The Vena Beauty Tea tree oil uses are numerous including diffusing it in the air to kill mold, healing skin issues, soothing dry flaking skin, removing dandruff and so on. It is also well-known for its powerful antiseptic properties and ability to treat wounds.",
+    "Source" : "Amazon",
+    "Price" : "15.99",
+    "OrderSize" : "4 fl oz Bottle",
+    "URL" : "https://www.amazon.com/Essential-Natural-Therapeutic-Vena-Beauty/dp/B075WQL16B/ref=sr_1_1_sspa?s=beauty&ie=UTF8&qid=1511536009&sr=1-1-spons&keywords=tea+tree+oil&psc=1",
+    "Remedy_ID" : NumberInt(12)
+}
+{
+    "_id" : ObjectId("5a1aedcb68d4683f5c8df040"),
+    "ProductName" : "breathesaltrooms Dry Salt Therapy",
+    "URL" : "http://www.breathesaltrooms.com/",
+    "Remedy_ID" : NumberInt(13)
+}
+{
+    "_id" : ObjectId("5a1aedcb68d4683f5c8df041"),
+    "ProductName" : "Oloacupuncture Treatment",
+    "URL" : "https://www.oloacupuncture.com/",
+    "Remedy_ID" : NumberInt(14)
+}
+{
+    "_id" : ObjectId("5a1aedcb68d4683f5c8df042"),
+    "ProductName" : "Drleahlagos Biofeedback",
+    "URL" : "http://www.drleahlagos.com/new-york-biofeedback.html",
+    "Remedy_ID" : NumberInt(15)
+}
+{
+    "_id" : ObjectId("5a1aedcb68d4683f5c8df043"),
+    "ProductName" : "Russianturkishbaths Treatment",
+    "URL" : "http://www.russianturkishbaths.com/",
+    "Remedy_ID" : NumberInt(16)
+}
+{
+    "_id" : ObjectId("5a1aedcb68d4683f5c8df043"),
+    "ProductName" : "Pyrensoidosa Green Supplement",
+    "URL" : "https://www.amazon.com/Pyrensoidosa-Green-Supplement-chlorophyll-preservatives/dp/B00N5IK07M/ref=sr_1_1_sspa?s=hpc&ie=UTF8&qid=1511541878&sr=1-1-spons&keywords=Chlorella&th=1",
+    "Remedy_ID" : NumberInt(17)
+}
+{
+    "_id" : ObjectId("5a1aedcb68d4683f5c8df044"),
+    "ProductName" : "Chattanooga Reusable Shoulder Swelling",
+    "URL" : "https://www.amazon.com/Chattanooga-Reusable-Shoulder-Swelling-Inflammation/dp/B000EAPNCQ/ref=sr_1_3_a_it?ie=UTF8&qid=1511541216&sr=8-3&keywords=cold+pack",
+    "Remedy_ID" : NumberInt(18)
+}
+{
+    "_id" : ObjectId("5a1aedcb68d4683f5c8df045"),
+    "ProductName" : "Nutricost Alpha Acid Capsules",
+    "URL" : "https://www.amazon.com/Nutricost-Alpha-Lipoic-Acid-Capsules/dp/B01CKLMWYS/ref=sr_1_1_sspa?ie=UTF8&qid=1511541625&sr=8-1-spons&keywords=%22Alpha-Lipoic+Acid+%22&psc=1",
+    "Remedy_ID" : NumberInt(19)
+}
+{
+    "_id" : ObjectId("5a1aedcb68d4683f5c8df046"),
+    "ProductName" : "BRI Nutrition Resveratrol Supplement",
+    "URL" : "https://www.amazon.com/BRI-Nutrition-Resveratrol-Strength-Supplement/dp/B00LPW9X32/ref=sr_1_1_sspa?s=hpc&ie=UTF8&qid=1511541646&sr=1-1-spons&keywords=Resveratrol&psc=1",
+    "Remedy_ID" : NumberInt(20)
+}

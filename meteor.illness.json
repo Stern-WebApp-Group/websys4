@@ -1,0 +1,20 @@
+{
+    "_id" : ObjectId("5a197b9568d468112ca97eed"),
+    "name" : "Cold",
+    "Description": "In contrast to the flu, a common cold can be caused by many different types of viruses. The condition is usually harmless and symptoms usually resolve within two weeks. Symptoms include a runny nose, sneezing, and congestion. High fever or severe symptoms are reasons to see a doctor, especially in children. Most people recover on their own within two weeks. Over-the-counter products and home remedies can help control symptoms."
+}
+{
+    "_id" : ObjectId("5a197b9568d468112ca97eee"),
+    "name" : "Acne",
+    "Description": "Acne is most common in teenagers and young adults. Symptoms range from uninflamed blackheads to pus-filled pimples or large, red, and tender bumps. Treatments include over-the-counter creams and cleanser, as well as prescription antibiotics."
+}
+{
+    "_id" : ObjectId("5a197b9568d468112ca97eef"),
+    "name" : "Asthma",
+    "Description": "Asthma can be minor or it can interfere with daily activities. In some cases, it may lead to a life-threatening attack. Asthma may cause difficulty breathing, chest pain, cough, and wheezing. The symptoms may sometimes flare-up. Asthma can usually be managed with rescue inhalers to treat symptoms (albuterol) and controller inhalers that prevent symptoms (steroids). Severe cases may require longer-acting inhalers that keep the airways open (formoterol, salmeterol, tiotropium), as well as oral steroids."
+}
+{
+    "_id" : ObjectId("5a197b9568d468112ca97ef0"),
+    "name" : "Meningitis",
+    "Description" : "Meningitis is usually caused by a viral infection but can also be bacterial or fungal. Vaccines can prevent some forms of meningitis. Symptoms include headache, fever, and stiff neck. Depending on the cause, meningitis may get better on its own, or it can be life-threatening, requiring urgent antibiotic treatment."
+}
