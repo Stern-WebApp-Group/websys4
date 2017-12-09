@@ -3,6 +3,8 @@
 <body>
 
 
+
+
 <!--Nav bar boostrap code-->
 <nav class="navbar navbar-default">
     <div class="container-fluid">
@@ -13,42 +15,38 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="#" class="navbar-left"> <img alt="NL" src="..."  ></a>
-
         </div>
-
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
-                <li><a href="#">Link</a></li>
-                <li class="dropdown">
-                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Action</a></li>
-                        <li><a href="#">Another action</a></li>
-                        <li><a href="#">Something else here</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">Separated link</a></li>
-                        <li role="separator" class="divider"></li>
-                        <li><a href="#">One more separated link</a></li>
-                    </ul>
-                </li>
+                <li><a href="homepage" id="homepage"><span class="glyphicon glyphicon-home" aria-hidden="true"></span> Home</a></li>
+                <li><a href="about_us" id="about_us">About</a></li>
+                <!--<li><a href="#">Team</a></li>-->
+                <!--<li><a href="#">Contact</a></li>-->
             </ul>
-            <form class="navbar-form navbar-left">
-                <div class="form-group">
-                    <!--autocomplete search-->
-                    <input type="text" class="form-control typeahead" data-autoselect="true" data-min-length="0" placeholder="Search for..." data-source="illnessSearch" data-select="selected">
-                </div>
-            </form>
-        </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-</nav>
+        </div>
+    </div>
+</nav><br>
 
+<div class="row">
+    <div class="col-lg-6 col-lg-offset-3">
+        <img alt="NatLife" class="img-responsive center-block" src="/img/Nat_Life.png" width="15%" height="15%"><br><br>
+    </div>
+</div>
 
 <br>
 <div class="row">
-    <div class="col-lg-6">
-        <img alt="Nat Life" class="pull-left" src="/img/Nat_Life.png" width="10%" height="10%" ><br><br><br>
+    <div class="col-lg-6 col-lg-offset-3">
+
+
+        <form class="form-inline" role="form">
+            <div class="form-group has-success has-feedback">
+                <!--<label class="control-label" for="inputSuccess4"></label>-->
+                <input type="text" class="form-control typeahead" data-autoselect="true" id="inputSuccess4"  data-min-length="0" placeholder="Search for an illness" data-source="illnessSearch" data-select="selected">
+                <span class="glyphicon glyphicon-search form-control-feedback"></span>
+            </div>
+        </form>
+
+
     </div>
 </div>
 
@@ -57,7 +55,7 @@
 
 <!--insert remedy template-->
 <div class="row">
-    <div class="col-lg-6" id="rememdyblock">
+    <div class="col-lg-6 col-lg-offset-3" id="rememdyblock">
         {{#each remedies}}
             {{> remedy_result}}
         {{/each}}
@@ -73,49 +71,76 @@
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                <h4 class="modal-title" id="myModalLabel">
+                    {{#each products}}
+                        {{ProductName}}
+                    {{/each}}
+                </h4>
             </div>
             <div class="modal-body">
                 {{#each products}}
-                    {{URL}}
+                    <img alt="{{ProductName}}" class="img-responsive center-block" src="/img/{{ProductName}}.jpg" width="50%" height="50%">
+                    <hr>
+                    <span class="product-name-bold">Product Name</span><br>
+                    {{ProductName}}
+                    <p></p>
+                    <span class="product-name-bold">Product Description</span><br>
+                    {{ProductDesc}}
+                    <p></p>
+                    <span class="product-name-bold">Price</span><br>
+                    ${{Price}} ({{OrderSize}})
+                    <hr>
+                    <a href="{{URL}}" class="btn btn-primary">Visit Store</a><span>   (Source: {{Source}})</span>
                 {{/each}}
-
-
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-
             </div>
         </div>
     </div>
 </div>
 
+<!-- about page -->
+<div class="col-lg-6 col-lg-offset-3 about_page jumbotron" style="text-align:justify; display:none; font-size:20px">
+    <img alt="NatLife" class="img-responsive center-block" src="/img/Nat_Life.png" width="15%" height="15%">
+    <hr>
+    <strong><i><h2>Let people find reliable remedies for their illness.</h2></i></strong>
+    <br>
+    We are <strong>NatLife</strong>, your most reliable go-to service for remedies.
+    <br><br>
+    Found in 2017, we have been helping hundreds of thousands of people achieve healthy lives. As known, meeting a
+    doctor can be expensive, especially if you have no insurance. Oftentimes, finding a doctor is not necessary
+    if there is a source that you can trust by simply indicating your symtoms and getting advices on the right remedy.
+    <br><br>
+    In NatLife, our mission is to simplify your remedy search and help you solve your illness via a simple search. Found by
+    four NYU alumnis, Natlife is supported by a group of proferssional, talented and dedicated people who share the probelm
+    as our customers.
+    <br><br>
+    <hr>
+</div>
+
 </body>
+
+
 
 <!-- repeating block for remedy template-->
 
 <template name="remedy_result">
-
-    <div class="panel panel-default remedy_panel" id="{{Remedy_ID}}">
-        <div class="panel-heading"><strong>{{Remedy}}</strong>   &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-           <span class="glyphicon glyphicon-thumbs-up pull-right" aria-hidden="true">&nbsp;</span><span>&nbsp;&nbsp;</span><span class="glyphicon glyphicon-thumbs-down pull-right" aria-hidden="true"></span> <span>&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="badge pull-right"> 70% </span><span>&nbsp;&nbsp;&nbsp;</span><span class="label label-success pull-right"> 14</span><span>&nbsp;&nbsp;</span><span class="pull-right">Votes&nbsp;&nbsp;</span>
+    <div class="panel {{illness}} panel-default remedy_panel">
+        <div class="panel-heading"><strong>{{Remedy}}</strong>
+            <span class="glyphicon glyphicon-thumbs-up pull-right" aria-hidden="true"></span><span class="pull-right">&nbsp;</span><span class="label label-success pull-right">14</span>
         </div>
-
         <div class="panel-body">
-           <div class="readmore2">{{Description}}</div>
-            <Br>
-
+            <div class="readmore2">{{Description}}</div>
+            <br><br>
             <!-- Button trigger modal -->
             <button type="button" id="{{Remedy_ID}}" name="rbutton" class="btn btn btn-default remedy_button" data-toggle="modal" data-target="#myModal">
                 <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> View Products
             </button>
-
             <button type="button" class="btn btn btn-default" data-toggle="modal" data-target="#myModal2">
                 <span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span> Reviews
             </button>
-
         </div>
     </div>
-
 </template>
 

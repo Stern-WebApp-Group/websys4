@@ -58,23 +58,13 @@ Template.body.helpers({
 
     //return list of illnesses to the autocomplete search
     illnessSearch: function() {
-        return Ilnesses.find().fetch().map(function(object){ return {id: object.Remedy_ID, value: object.name}; });
+        return Ilnesses.find().fetch().map(function(object){ return {value: object.name}; });
     },
 
     // filtered out remedies based on search (hide all other remedies
     selected: function(event, suggestion, datasetName) {
-
-        //split remedies returned by illness into array
-        var query_ids = suggestion.id.split(',');
-
-        //hide all rememdies
-       $(".panel").hide();
-
-        //show only filtered remedies
-        for (var i = 0; i < query_ids.length; i++) {
-            $("#"+ query_ids[i]).show();
-        }//for
-
+        $(".panel").hide();
+        $("."+suggestion.value).show();
     },
 });
 
@@ -87,5 +77,25 @@ Template.body.events({
         const target = event.target;
         Session.set("currentproduct", target.id);
 
+    },
+});
+
+
+//Rui's code to show the about page
+
+Template.body.events({
+    //show about_us page
+    'click #about_us'(event) {
+        event.preventDefault();
+        $(".row").hide();
+        $("#input_search").hide();
+        $(".about_page").show();
+        //show homepage
+    },
+    'click #homepage'(event) {
+        event.preventDefault();
+        $(".row").show();
+        $("#input_search").show();
+        $(".about_page").hide();
     },
 });
