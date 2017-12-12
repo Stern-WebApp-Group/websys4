@@ -93,12 +93,67 @@
                     <a href="{{URL}}" class="btn btn-primary">Visit Store</a><span>   (Source: {{Source}})</span>
                 {{/each}}
             </div>
+
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             </div>
         </div>
     </div>
 </div>
+
+<!-- myModal2 for reviews -->
+<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Reviews</h4>
+            </div>
+            <div class="modal-body">
+                <table class="table">
+                  <thead>
+                  <tr>
+                      <th scope="col">Username</th>
+                      <th scope="col">Review</th>
+                      <th scope="col">Rating</th>
+                  </tr>
+                </thead>
+                {{#each reviews}}
+                <tbody>
+                  <tr>
+                      <td>Testuser</td>
+                      <td>{{Text}}</td>
+                      <td>{{Rating}}</td>
+                  </tr>
+                </tbody>
+                {{/each}}
+                </table>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- myModal2 for write reviews -->
+<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Reviews</h4>
+            </div>
+            <div class="modal-body">
+                {{> reviewsform}}
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 
 <!-- about page -->
 <div class="col-lg-6 col-lg-offset-3 about_page jumbotron" style="text-align:justify; display:none; font-size:20px">
@@ -137,10 +192,39 @@
             <button type="button" id="{{Remedy_ID}}" name="rbutton" class="btn btn btn-default remedy_button" data-toggle="modal" data-target="#myModal">
                 <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span> View Products
             </button>
-            <button type="button" class="btn btn btn-default" data-toggle="modal" data-target="#myModal2">
+            <button type="button" id="{{Remedy_ID}}" name="rbutton" class="btn btn btn-default remedy_button2" data-toggle="modal" data-target="#myModal2">
                 <span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span> Reviews
+            </button>
+
+            <button type="button" id="{{Remedy_ID}}" name="rbutton" class="btn btn btn-default remedy_button3" data-toggle="modal" data-target="#myModal3">
+                <span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span> Write New Review
             </button>
         </div>
     </div>
 </template>
 
+<template name="reviewsform">
+    <form id = {{Remedy_ID}} class="reviews-form">
+        <div class="form-group">
+            <label for="reviewtext" class="col-form-label">Review:</label>
+            <textarea class="form-control" id="reviewtext"></textarea>
+        </div>
+
+        <div class="form-group">
+            <label for="reviewrating">Select Ratings</label>
+            <select class="form-control" id="reviewrating">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+        </div>
+
+        <button type="submit" id="2" class="btn btn btn-default form-submit" data-dismiss="form">
+           Submit
+        </button>
+    </form>
+
+
+</template>

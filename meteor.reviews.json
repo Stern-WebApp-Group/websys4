@@ -1,0 +1,4 @@
+{ "_id" : "tQ2kBGBy4giooykRi", "Text" : "this is good product", "Rating" : 4, "Remedy_ID" : 1, "User_ID" : 1 }
+{ "_id" : "6JekTsoTExbXsfCAX", "Text" : "I hate garlic", "Rating" : 1, "Remedy_ID" : 4, "User_ID" : 1 }
+{ "_id" : "ZSoSQD69TmwwvmGL3", "Text" : "I like chicken soup", "Rating" : 4, "Remedy_ID" : 1, "User_ID" : 1 }
+{ "_id" : "gA2v46uSebGWiLaDM", "Text" : "I like honey", "Rating" : 5, "Remedy_ID" : 2, "User_ID" : 1 }

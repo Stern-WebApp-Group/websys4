@@ -1,5 +1,5 @@
 import { Template } from 'meteor/templating';
-import { Ilnesses, Remedy, Products } from '../api/servercode.js';
+import { Ilnesses, Remedy, Products ,Reviews} from '../api/servercode.js';
 const readmore = require('readmore-js');
 
 
@@ -37,7 +37,7 @@ Template.body.onCreated(function bodyOnCreated() {
     Meteor.subscribe('remedy');
     Meteor.subscribe('illness');
     Meteor.subscribe('product');
-
+    Meteor.subscribe('reviews');
 });
 
 
@@ -56,6 +56,13 @@ Template.body.helpers({
 
     },
 
+    //return list of reviews with the matching rememdy ID
+    reviews: function(){
+        console.log( Session.get("currentreview"));
+        var temp = parseInt(Session.get('currentreview'));
+        return Reviews.find({"Remedy_ID": temp });
+
+    },
     //return list of illnesses to the autocomplete search
     illnessSearch: function() {
         return Ilnesses.find().fetch().map(function(object){ return {value: object.name}; });
@@ -78,6 +85,21 @@ Template.body.events({
         Session.set("currentproduct", target.id);
 
     },
+
+          'click .remedy_button2'(event) {
+        // Prevent default browser form submit
+        event.preventDefault();
+        const target = event.target;
+        Session.set("currentreview", target.id);
+
+    },
+      'click .remedy_button3'(event) {
+        // Prevent default browser form submit
+        event.preventDefault();
+        const target = event.target;
+        Session.set("currentremedy", target.id);
+
+    },
 });
 
 
@@ -98,4 +120,67 @@ Template.body.events({
         $("#input_search").show();
         $(".about_page").hide();
     },
+
+
 });
+
+
+Template.reviewsform.events({
+    // On submission of form
+    'submit .reviews-form': function(event){
+        console.log("Form submitted");
+        event.preventDefault();
+
+        // Get current remedy from session variable
+        const remedyID = parseInt(Session.get('currentremedy'));
+        const target = event.target;
+        // Get input text and rating from form
+        const inputtext = target.reviewtext.value;
+        const inputrating = parseInt(target.reviewrating.value);
+
+        // Insert reviews data in Reviews collection
+        Reviews.insert({
+            Text: inputtext,
+            Rating: inputrating,
+            Remedy_ID: remedyID,
+            User_ID: 1
+        });
+
+        // Clear form
+        target.reviewtext.value = '';
+        target.reviewrating.value = '';
+    }
+});
+
+Template.remedy_result.helpers({
+    getRating: function(Remedy_id) {
+        /*console.log( Session.get("currentremedy"));
+        var temp = parseInt(Session.get('currentremedy'));*/
+
+        let avgJSON = Meteor.call('getRatingServer', Remedy_id);
+
+        /*var avgJSON =  Reviews.aggregate([
+              { $match: { "Remedy_ID": 5 }},
+              {
+                  $group: {
+                      _id: null,
+                      avgRating: {
+                          $avg: "$Rating"
+                      }
+                  }
+              }
+          ]);
+*/
+        console.log(avgJSON);
+        console.log(avgJSON.avgRating.value);
+        return avgJSON.avgRating.value;
+ /*       return Meteor.call('getRatingServer', Remedy_id, ( error, response ) => {
+            if ( error ) {
+                alert( error.reason );
+            } else {
+                //template.totalRevenue.set( response );
+            }}).value;*/
+    }
+
+
+})
