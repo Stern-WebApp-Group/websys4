@@ -120,7 +120,7 @@
 }
 {
     "_id" : ObjectId("5a1aedcb68d4683f5c8df040"),
-    "ProductName" : "breathesaltrooms Dry Salt Therapy",
+    "ProductName" : "Breathesaltrooms Dry Salt Therapy",
     "URL" : "http://www.breathesaltrooms.com/",
     "Remedy_ID" : NumberInt(13)
 }
@@ -138,31 +138,31 @@
 }
 {
     "_id" : ObjectId("5a1aedcb68d4683f5c8df043"),
-    "ProductName" : "Russianturkishbaths Treatment",
-    "URL" : "http://www.russianturkishbaths.com/",
-    "Remedy_ID" : NumberInt(16)
-}
-{
-    "_id" : ObjectId("5a1aedcb68d4683f5c8df043"),
     "ProductName" : "Pyrensoidosa Green Supplement",
+    "ProductDesc" : "Chlorella Tablets are organic, raw, non-GMO. 100% Pure Chlorella Pyrensoidosa. Green Superfood Supplement. High protein, chlorophyll & nucleic acids. No preservatives or fillers.",
+    "Source" : "Amazon",
+    "Price" : "35.22",
+    "OrderSize" : "Mega-pack 1000 tablets",
     "URL" : "https://www.amazon.com/Pyrensoidosa-Green-Supplement-chlorophyll-preservatives/dp/B00N5IK07M/ref=sr_1_1_sspa?s=hpc&ie=UTF8&qid=1511541878&sr=1-1-spons&keywords=Chlorella&th=1",
-    "Remedy_ID" : NumberInt(17)
-}
-{
-    "_id" : ObjectId("5a1aedcb68d4683f5c8df044"),
-    "ProductName" : "Chattanooga Reusable Shoulder Swelling",
-    "URL" : "https://www.amazon.com/Chattanooga-Reusable-Shoulder-Swelling-Inflammation/dp/B000EAPNCQ/ref=sr_1_3_a_it?ie=UTF8&qid=1511541216&sr=8-3&keywords=cold+pack",
-    "Remedy_ID" : NumberInt(18)
+    "Remedy_ID" : NumberInt(16)
 }
 {
     "_id" : ObjectId("5a1aedcb68d4683f5c8df045"),
     "ProductName" : "Nutricost Alpha Acid Capsules",
+    "ProductDesc" : "Nutricost Alpha Lipoic Acid contains 600mg Per Serving",
+    "Source" : "Amazon",
+    "Price" : "14.20",
+    "OrderSize" : "240 Capsules",
     "URL" : "https://www.amazon.com/Nutricost-Alpha-Lipoic-Acid-Capsules/dp/B01CKLMWYS/ref=sr_1_1_sspa?ie=UTF8&qid=1511541625&sr=8-1-spons&keywords=%22Alpha-Lipoic+Acid+%22&psc=1",
-    "Remedy_ID" : NumberInt(19)
+    "Remedy_ID" : NumberInt(17)
 }
 {
     "_id" : ObjectId("5a1aedcb68d4683f5c8df046"),
     "ProductName" : "BRI Nutrition Resveratrol Supplement",
+    "ProductDesc" : "Resveratrol is a beneficial compound often found in the skin of red grape seeds, juices, dates, berries and red wine, and is thought to have powerful antioxidant properties. Resveratrol is nature's way of making you feel great.",
+    "Source" : "Amazon",
+    "Price" : "22.69",
+    "OrderSize" : "60 Veggie Capsules",
     "URL" : "https://www.amazon.com/BRI-Nutrition-Resveratrol-Strength-Supplement/dp/B00LPW9X32/ref=sr_1_1_sspa?s=hpc&ie=UTF8&qid=1511541646&sr=1-1-spons&keywords=Resveratrol&psc=1",
-    "Remedy_ID" : NumberInt(20)
+    "Remedy_ID" : NumberInt(18)
 }
