@@ -104,37 +104,23 @@
     "Remedy_ID" : NumberInt(15)
 }
 {
-    "_id" : ObjectId("5a1987bc68d468112ca97f1c"),
-    "Remedy" : "Steam Baths",
-    "Description" : "Steam baths may relieve some of the symptoms because it may provide moisture to the airways.Though steam can be dangerously hot, so in some asthmatics, it can exacerbate symptoms. Steam baths may help offset some symptoms, particularly nasal stuffiness.",
-    "illness" : "Asthma",
-    "Remedy_ID" : NumberInt(16)
-}
-{
     "_id" : ObjectId("5a1987bc68d468112ca97f1d"),
-    "Remedy" : "Ginger",
-    "Description" : "Ginger is thought to decrease inflammation, and a recent study did show that oral ginger supplements were linked to improvement in asthma symptoms. The study didn't show, however, that ginger use led to any improvement in actual lung function",
-    "illness" : "Asthma",
-    "Remedy_ID" : NumberInt(17)
-}
-{
-    "_id" : ObjectId("5a1987bc68d468112ca97f1e"),
-    "Remedy" : "Garlic",
-    "Description" : "Garlic contains the compound allicin, which may have antimicrobial properties. Adding a garlic supplement to your diet might reduce the severity of cold symptoms. According to some research, it might even help you avoid getting sick in the first place.",
+    "Remedy" : "Chlorella Pyrenoidosa",
+    "Description" : "Chlorella pyrenoidosa is a species of the freshwater green algae genus Chlorella. It occurs worldwide. The species name pyrenoidosa refers to the presence of a prominent pyrenoid within the Chlorella chloroplast.",
     "illness" : "Meningitis",
-    "Remedy_ID" : NumberInt(18)
+    "Remedy_ID" : NumberInt(16)
 }
 {
     "_id" : ObjectId("5a1987bc68d468112ca97f1f"),
     "Remedy" : "Olive Leaf Extract",
     "Description" : "For a proper herbal approach to treating meningitis, you can turn to olive leaf extract, which is praised for its antiviral and antioxidant properties, in addition to its proven anti-inflammatory abilities. When it comes to meningitis, you can take olive leaf extracts in any number of forms to reduce inflammation, lower fever, and ease pain and discomfort associated with this serious condition.",
     "illness" : "Meningitis",
-    "Remedy_ID" : NumberInt(19)
+    "Remedy_ID" : NumberInt(17)
 }
 {
     "_id" : ObjectId("5a1987bc68d468112ca97f20"),
     "Remedy" : "Chlorella",
     "Description" : "One of the most well known home remedies for meningitis is chlorella, a small plant that packs a major punch, namely due to its impressive chlorophyll content. Although chlorophyll is typically associated with plants and energy production, it is remarkably similar in structure to our own haemoglobin, and can therefore boost red blood cell production, which increases oxygenation, purifies the blood, and helps to speed up recovery and repair of the damage from meningitis.",
     "illness" : "Meningitis",
-    "Remedy_ID" : NumberInt(20)
+    "Remedy_ID" : NumberInt(18)
 }
