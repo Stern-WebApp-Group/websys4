@@ -67,7 +67,7 @@
 
 <!-- Modal -->
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
+    <div class="modal-dialog" role="document" style="width:1000px;">
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
@@ -77,20 +77,26 @@
                     {{/each}}
                 </h4>
             </div>
-            <div class="modal-body">
+            <div class="modal-body" id='product_only'>
                 {{#each products}}
-                    <img alt="{{ProductName}}" class="img-responsive center-block" src="/img/{{ProductName}}.jpg" width="50%" height="50%">
+                    <img alt="{{ProductName}}" class="img-responsive center-block" src="/img/{{ProductName}}.jpg" width="300px" height="300px">
                     <hr>
-                    <span class="product-name-bold">Product Name</span><br>
+                    <span><strong>Product Name</strong></span><br>
                     {{ProductName}}
                     <p></p>
-                    <span class="product-name-bold">Product Description</span><br>
+                    <span><strong>Product Description</strong></span><br>
                     {{ProductDesc}}
                     <p></p>
-                    <span class="product-name-bold">Price</span><br>
+                    <span><strong>Price</strong></span><br>
                     ${{Price}} ({{OrderSize}})
                     <hr>
                     <a href="{{URL}}" class="btn btn-primary">Visit Store</a><span>   (Source: {{Source}})</span>
+                {{/each}}
+            </div>
+
+            <div class="modal-body" id='service_only'>
+                {{#each products}}
+                    <iframe src="{{URL}}" height="600px" width="950px"></iframe>
                 {{/each}}
             </div>
 
