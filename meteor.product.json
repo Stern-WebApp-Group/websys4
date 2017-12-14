@@ -1,168 +1,126 @@
 {
-    "_id" : ObjectId("5a1aedcb68d4683f5c8df034"),
-    "ProductName" : "Progresso Chicken Noodle Soup",
-    "ProductDesc" : "The Progresso Traditional Soups are pretty special. They're the classics. The favorites. All made with quality ingredients and years of practice to get it just right.",
-    "Source" : "Amazon",
-    "Price" : "1.25",
-    "OrderSize" : "19 Oz Can",
-    "URL" : "https://www.amazon.com/Progresso-Soup-Traditional-Chicken-Noodle/dp/B017XKQUXU/ref=sr_1_1_sspa?s=grocery&ie=UTF8&qid=1511535401&sr=1-1-spons&keywords=chicken+soup&psc=1",
+    "_id" : ObjectId("5a1987bc68d468112ca97f0d"),
+    "Remedy" : "Chicken Soup",
+    "Description" : "Research suggests that enjoying a bowl of chicken soup with vegetables, prepared from scratch or warmed from a can, can slow the movement of neutrophils in your body. Neutrophils are a common type of white blood cell. They help protect your body from infection. When they're moving slowly, they stay more concentrated in the areas of your body that require the most healing. The study found that chicken soup was effective for reducing the symptoms of upper respiratory infections in particular. Low-sodium soup also carries great nutritional value and helps keep you hydrated. It's a good choice, no matter how you're feeling.",
+    "illness" : "Cold",
     "Remedy_ID" : NumberInt(1)
 }
 {
-    "_id" : ObjectId("5a1aedcb68d4683f5c8df035"),
-    "ProductName" : "Nature Nates Unfiltered Honey",
-    "ProductDesc" : "Nature Nate's Raw & Unfiltered Honey is Made by American Bees and comes straight from the hive - just as nature intended. It has not been cooked, and the pollens have not been filtered out. Each batch is tested for a high pollen count and a clean read of corn syrup adulteration, pesticides, herbicides and antibiotics before going into your bottle. Choose the size that fits your family best.",
-    "Source" : "Amazon",
-    "Price" : "9.66",
-    "OrderSize" : "32 Oz Bottle",
-    "URL" : "https://www.amazon.com/Nature-Nates-Ounce-Unfiltered-Honey/dp/B00CMQD3VS/ref=sr_1_4_s_it?s=grocery&ie=UTF8&qid=1511535542&sr=1-4&keywords=honey",
+    "_id" : ObjectId("5a1987bc68d468112ca97f0e"),
+    "Remedy" : "Honey",
+    "Description" : "Honey has a variety of antibacterial and antimicrobial properties. Drinking honey in tea with lemon can ease sore throat pain. Research suggests that honey is an effective cough suppressant, too. In one study, researchers found that giving children 10 grams of honey at bedtime reduced the severity of their cough symptoms. The children reportedly slept more soundly, which also helps reduce cold symptoms.",
+    "illness" : "Cold",
     "Remedy_ID" : NumberInt(2)
 }
 {
-    "_id" : ObjectId("5a1aedcb68d4683f5c8df036"),
-    "ProductName" : "Simply Organic Certified Container",
-    "ProductDesc" : "We're Simply Organic. Our goal is to enrich people's lives with an honest promise of freshness, quality and taste that can only come from organically grown foods. We celebrate life, honor tradition and value nature. Certified organic by Quality Assurance.",
-    "Source" : "Amazon",
-    "Price" : "3.95",
-    "OrderSize" : "1.64 Oz Bottle",
-    "URL" : "https://www.amazon.com/Simply-Organic-Certified-1-64-Ounce-Container/dp/B000WS3AMU/ref=sr_1_5_s_it?s=grocery&ie=UTF8&qid=1511535585&sr=1-5&keywords=ginger",
+    "_id" : ObjectId("5a1987bc68d468112ca97f0f"),
+    "Remedy" : "Ginger",
+    "Description" : "The health benefits of ginger root have been touted for centuries, but now we have scientific proof of its curative properties. A few slices of raw ginger root in boiling water may help soothe a cough or sore throat.",
+    "illness" : "Cold",
     "Remedy_ID" : NumberInt(3)
 }
 {
-    "_id" : ObjectId("5a1aedcb68d4683f5c8df037"),
-    "ProductName" : "Fresh Garlic",
-    "ProductDesc" : "Sharing the same family tree as onions, leeks and shallots, this fragrant bulb has been adding flavor to dishes around the world for thousands of years.",
-    "Source" : "Amazon",
-    "Price" : "0.99",
-    "OrderSize" : "one unit",
-    "URL" : "https://www.amazon.com/produce-aisle-Medium-Garlic-Bulb/dp/B000NSFQJE/ref=sr_1_4_s_f_it?s=grocery&ie=UTF8&qid=1511535605&sr=1-4&ppw=fresh&keywords=garlic",
+    "_id" : ObjectId("5a1987bc68d468112ca97f10"),
+    "Remedy" : "Garlic",
+    "Description" : "Garlic contains the compound allicin, which may have antimicrobial properties. Adding a garlic supplement to your diet might reduce the severity of cold symptoms. According to some research, it might even help you avoid getting sick in the first place.",
+    "illness" : "Cold",
     "Remedy_ID" : NumberInt(4)
 }
 {
-    "_id" : ObjectId("5a1aedcb68d4683f5c8df038"),
-    "ProductName" : "Nature Bounty Echinacea",
-    "ProductDesc" : "Nature's Bounty Echinacea & Goldenseal is one of the world’s leading herbs for immune system support. Echinacea promotes the body’s natural defense system. These capsules can be used any time of the year.",
-    "Source" : "Amazon",
-    "Price" : "5.45",
-    "OrderSize" : "100 Capsules",
-    "URL" : "https://www.amazon.com/Natures-Bounty-Echinacea-Natural-Capsules/dp/B000GG15L6/ref=sr_1_4_s_it?s=hpc&ie=UTF8&qid=1511535605&sr=1-4&keywords=echinacea",
+    "_id" : ObjectId("5a1987bc68d468112ca97f11"),
+    "Remedy" : "Echinacea",
+    "Description" : "Native Americans have used the herb and root of the echinacea plant to treat infections for more than 400 years. Its active ingredients include flavonoids, chemicals that have many therapeutic effects on the body. For example, flavonoids can boost your immune system and reduce inflammation. Research on the herbâ€™s effectiveness at fighting the common cold and flu has been mixed. But one review suggests that taking echinacea may lower your risk of developing the common cold by more than 50 percent. It may also reduce the length of a cold.",
+    "illness" : "Cold",
     "Remedy_ID" : NumberInt(5)
 }
 {
-    "_id" : ObjectId("5a1aedcb68d4683f5c8df039"),
-    "ProductName" : "Nutrition Essentials Probiotic",
-    "ProductDesc" : "HIGHEST NUMBER OF CFUS PER SERVING AND 2X MORE THAN SIMILAR PROBIOTIC SUPPLEMENTS for Better Digestive Health, Immunity and Bowel Regularity. 60 Tablets - 60 Day supply - Comes with a 100% NO-QUESTIONS-ASKED Moneyback Guarantee!",
-    "Source" : "Amazon",
-    "Price" : "18.99",
-    "OrderSize" : "60 Tablets",
-    "URL" : "https://www.amazon.com/Nutrition-Essentials-Rated-Probiotic-Moneyback/dp/B00L3JTHME/ref=sr_1_2_sspa?s=hpc&ie=UTF8&qid=1511535635&sr=1-2-spons&keywords=probiotic&psc=1",
+    "_id" : ObjectId("5a1987bc68d468112ca97f12"),
+    "Remedy" : "Probiotics",
+    "Description" : "Probiotics are â€œfriendlyâ€� bacteria and yeast that are found in your body, some foods, and supplements. They can help keep your gut and immune system healthy, and research indicates that probiotics may reduce your chance of getting sick with an upper respiratory infection.",
+    "illness" : "Cold",
     "Remedy_ID" : NumberInt(6)
 }
 {
-    "_id" : ObjectId("5a1aedcb68d4683f5c8df03a"),
-    "ProductName" : "Nature Bounty Vitamin C",
-    "ProductDesc" : "Nature's Bounty Vitamin C is one of the most well-known and widely used nutritonal supplements on the planet! People reach for Nature's Bounty Vitamin C to help them get the essential benefits their body relies on every day!",
-    "Source" : "Amazon",
-    "Price" : "8.35",
-    "OrderSize" : "250 Tablets",
-    "URL" : "https://www.amazon.com/Natures-Bounty-Vitamin-500mg-Tablets/dp/B000GG87V2/ref=sr_1_4_s_it?s=grocery&ie=UTF8&qid=1511535655&sr=1-4&keywords=vitamin+c",
+    "_id" : ObjectId("5a1987bc68d468112ca97f13"),
+    "Remedy" : "Vitamin C",
+    "Description" : "Vitamin C plays an important role in your body and has many health benefits. Along with limes, oranges, grapefruits, leafy greens, and other fruits and vegetables, lemons are a good source of vitamin C. Adding fresh lemon juice to hot tea with honey may reduce phlegm when youâ€™re sick. Drinking hot or cold lemonade may also help. While these drinks may not clear up your cold entirely, they can help you get the vitamin C that your immune system needs. Getting enough vitamin C can relieve upper respiratory tract infections and other illnesses.",
+    "illness" : "Cold",
     "Remedy_ID" : NumberInt(7)
 }
 {
-    "_id" : ObjectId("5a1aedcb68d4683f5c8df03b"),
-    "ProductName" : "ReaLemon Lemon Juice",
-    "ProductDesc" : "ReaLemon is 100% real lemon juice made from concentrate, and it’s a great alternative to the hassle of fresh lemons. ReaLemon is a space-saving kitchen sidekick, ideal for adding a delicious twist of lemon to your favorite seafood and poultry recipes, plus it’s great in marinades and it brightens up both hot and cold beverages. Since 1934, ReaLemon has been a trusted brand to deliver quality lemon juice.",
-    "Source" : "Amazon",
-    "Price" : "1.39",
-    "OrderSize" : "8 fl oz bottle",
-    "URL" : "https://www.amazon.com/ReaLemon-100-Lemon-Juice-bottle/dp/B000SRI61U/ref=sr_1_1_a_it?ie=UTF8&qid=1511535936&sr=8-1&keywords=lemon+juice",
+    "_id" : ObjectId("5a1987bc68d468112ca97f14"),
+    "Remedy" : "Lemon Juice",
+    "Description" : "The natural astringent and antibacterial properties of lemon juice are great for clearing up skin. To get the best results, just apply the lemon juice directly to the skin and leave it for up to an hour.",
+    "illness" : "Acne",
     "Remedy_ID" : NumberInt(8)
 }
 {
-    "_id" : ObjectId("5a1aedcb68d4683f5c8df03c"),
-    "ProductName" : "Bragg USDA Gluten Free Organic Raw Apple Cider Vinegar",
-    "ProductDesc" : "Weight loss booster, all-purpose cleaner, stomach soother. A popular kitchen staple, apple cider vinegar (ACV) dates back to ancient times: it’s said to have been used by Hippocrates himself. And while times have changed a lot since then, ACV is still a versatile, well-known item in many homes.",
-    "Source" : "Amazon",
-    "Price" : "Varied",
-    "OrderSize" : "Varied",
-    "URL" : "https://www.amazon.com/Bragg-Organic-Unfiltered-Apple-Vinegar/dp/B001ID6MIC/ref=sr_1_3_a_it?ie=UTF8&qid=1511535964&sr=8-3&keywords=apple+cider+vinegar",
+    "_id" : ObjectId("5a1987bc68d468112ca97f15"),
+    "Remedy" : "Apple Cider Vinegar",
+    "Description" : "Sort of along the same lines as lemon juice, apple cider vinegar has the same antibacterial properties, as well as antifungal properties as well. Apple cider vinegar is very powerful though, so you might want to dilute it when you use it, at least at first. Just apply a small amount to your skin, but make sure that you choose pure, undiluted vinegar for best results.",
+    "illness" : "Acne",
     "Remedy_ID" : NumberInt(9)
 }
 {
-    "_id" : ObjectId("5a1aedcb68d4683f5c8df03d"),
-    "ProductName" : "Arm Hammer Pure Baking Soda",
-    "ProductDesc" : "Pure baking soda - no additives or fillers.",
-    "Source" : "Amazon",
-    "Price" : "11.14",
-    "OrderSize" : "1 lb. Box Pack of 2",
-    "URL" : "https://www.amazon.com/Hammer-Pure-Baking-Soda-Pack/dp/B074SJQT9J/ref=sr_1_1_sspa?s=grocery&ie=UTF8&qid=1511535980&sr=1-1-spons&keywords=Baking+Soda&psc=1&smid=A3B9YUBNGCFPLC",
+    "_id" : ObjectId("5a1987bc68d468112ca97f16"),
+    "Remedy" : "Baking Soda",
+    "Description" : "Baking soda is a great option for clearing up blemishes, itâ€™s cheap, it's natural, and it doesn't contain any harmful chemicals or other ingredients. The benefits of baking soda are many: it exfoliates, it reduces inflammation, and it clears up skin. All you have to do is use warm water and baking soda to make a paste. Then, apply the paste to your skin like a mask. Leave it on for up to an hour, and then rinse. You will be amazed at the results.",
+    "illness" : "Acne",
     "Remedy_ID" : NumberInt(10)
 }
 {
-    "_id" : ObjectId("5a1aedcb68d4683f5c8df03e"),
-    "ProductName" : "Abbotsford Farms Cage Free Liquid Egg Whites",
-    "ProductDesc" : "Abbotsford Farms is an American Humane Certified egg producer. Which means our eggs come from farms that always follow strict guidelines in the care and well-being of the hens. Cage free chickens are free to engage in natural habits such as running, perching, roosting and laying eggs in nests. This vigilance provides customers with peace of mind knowing our egg products come from happy, healthy hens.",
-    "Source" : "Amazon",
-    "Price" : "9.99",
-    "OrderSize" : "16 Oz Bottle",
-    "URL" : "https://www.amazon.com/Abbotsford-Farms-Cage-Liquid-Whites/dp/B00L35T5F2/ref=sr_1_2_a_f_it?ie=UTF8&qid=1511535994&sr=8-2&ppw=fresh&keywords=egg+whites",
+    "_id" : ObjectId("5a1987bc68d468112ca97f17"),
+    "Remedy" : "Egg Whites",
+    "Description" : "Egg whites also make a great home remedy for getting rid of pimples. To use this method, simply separate the egg white from the yolk. Then, you can use a cotton swab, cotton ball, or simply your fingers to apply the egg white to your skin. Your skin will glow and begin to tighten. Leave the egg white mixture on your skin for up to an hour for best results.",
+    "illness" : "Acne",
     "Remedy_ID" : NumberInt(11)
 }
 {
-    "_id" : ObjectId("5a1aedcb68d4683f5c8df03f"),
-    "ProductName" : "Tea Tree Essential Oil Pure and Natural with Therapeutic Grade",
-    "ProductDesc" : "The Vena Beauty Tea tree oil uses are numerous including diffusing it in the air to kill mold, healing skin issues, soothing dry flaking skin, removing dandruff and so on. It is also well-known for its powerful antiseptic properties and ability to treat wounds.",
-    "Source" : "Amazon",
-    "Price" : "15.99",
-    "OrderSize" : "4 fl oz Bottle",
-    "URL" : "https://www.amazon.com/Essential-Natural-Therapeutic-Vena-Beauty/dp/B075WQL16B/ref=sr_1_1_sspa?s=beauty&ie=UTF8&qid=1511536009&sr=1-1-spons&keywords=tea+tree+oil&psc=1",
+    "_id" : ObjectId("5a1987bc68d468112ca97f18"),
+    "Remedy" : "Tea Tree Oil",
+    "Description" : "Tee tree oil is a very common home remedy for many conditions, but especially for acne and other skin conditions. Tea tree oil is able to break up clogged pores, clear out dead skin cells,and keep acne from coming back. To use tee tree oil for acne, mix one part oil to six to nine parts water, depending on how strong you want the mixture to be. Apply directly to the skin using cotton balls,and leave it on for around 30 minutes. You can moisturize afterwards, but be sure that you never use tea tree oil undiluted.",
+    "illness" : "Acne",
     "Remedy_ID" : NumberInt(12)
 }
 {
-    "_id" : ObjectId("5a1aedcb68d4683f5c8df040"),
-    "ProductName" : "Breathesaltrooms Dry Salt Therapy",
-    "URL" : "http://www.breathesaltrooms.com/",
+    "_id" : ObjectId("5a1987bc68d468112ca97f19"),
+    "Remedy" : "Yoga Breathing Exercises",
+    "Description" : "Stress may trigger asthma symptoms. Breathing exercises used in yoga have been found to help some people with asthma control breathing and relieve stress, a common asthma trigger.",
+    "illness" : "Asthma",
     "Remedy_ID" : NumberInt(13)
 }
 {
-    "_id" : ObjectId("5a1aedcb68d4683f5c8df041"),
-    "ProductName" : "Oloacupuncture Treatment",
-    "URL" : "https://www.oloacupuncture.com/",
+    "_id" : ObjectId("5a1987bc68d468112ca97f1a"),
+    "Remedy" : "Acupunture",
+    "Description" : "While some people with asthma have found that acupuncture can help reduce asthma attacks and improve breathing, studies are not conclusive.",
+    "illness" : "Asthma",
     "Remedy_ID" : NumberInt(14)
 }
 {
-    "_id" : ObjectId("5a1aedcb68d4683f5c8df042"),
-    "ProductName" : "Drleahlagos Biofeedback",
-    "URL" : "http://www.drleahlagos.com/new-york-biofeedback.html",
+    "_id" : ObjectId("5a1987bc68d468112ca97f1b"),
+    "Remedy" : "Biofeedback",
+    "Description" : "Learning to control heart rate may be helpful with asthma management but more studies are needed to confirm a benefit.",
+    "illness" : "Asthma",
     "Remedy_ID" : NumberInt(15)
 }
 {
-    "_id" : ObjectId("5a1aedcb68d4683f5c8df043"),
-    "ProductName" : "Pyrensoidosa Green Supplement",
-    "ProductDesc" : "Chlorella Tablets are organic, raw, non-GMO. 100% Pure Chlorella Pyrensoidosa. Green Superfood Supplement. High protein, chlorophyll & nucleic acids. No preservatives or fillers.",
-    "Source" : "Amazon",
-    "Price" : "35.22",
-    "OrderSize" : "Mega-pack 1000 tablets",
-    "URL" : "https://www.amazon.com/Pyrensoidosa-Green-Supplement-chlorophyll-preservatives/dp/B00N5IK07M/ref=sr_1_1_sspa?s=hpc&ie=UTF8&qid=1511541878&sr=1-1-spons&keywords=Chlorella&th=1",
+    "_id" : ObjectId("5a1987bc68d468112ca97f1d"),
+    "Remedy" : "Chlorella Pyrenoidosa",
+    "Description" : "Chlorella pyrenoidosa is a species of the freshwater green algae genus Chlorella. It occurs worldwide. The species name pyrenoidosa refers to the presence of a prominent pyrenoid within the Chlorella chloroplast.",
+    "illness" : "Meningitis",
     "Remedy_ID" : NumberInt(16)
 }
 {
-    "_id" : ObjectId("5a1aedcb68d4683f5c8df045"),
-    "ProductName" : "Nutricost Alpha Acid Capsules",
-    "ProductDesc" : "Nutricost Alpha Lipoic Acid contains 600mg Per Serving",
-    "Source" : "Amazon",
-    "Price" : "14.20",
-    "OrderSize" : "240 Capsules",
-    "URL" : "https://www.amazon.com/Nutricost-Alpha-Lipoic-Acid-Capsules/dp/B01CKLMWYS/ref=sr_1_1_sspa?ie=UTF8&qid=1511541625&sr=8-1-spons&keywords=%22Alpha-Lipoic+Acid+%22&psc=1",
+    "_id" : ObjectId("5a1987bc68d468112ca97f1f"),
+    "Remedy" : "Olive Leaf Extract",
+    "Description" : "For a proper herbal approach to treating meningitis, you can turn to olive leaf extract, which is praised for its antiviral and antioxidant properties, in addition to its proven anti-inflammatory abilities. When it comes to meningitis, you can take olive leaf extracts in any number of forms to reduce inflammation, lower fever, and ease pain and discomfort associated with this serious condition.",
+    "illness" : "Meningitis",
     "Remedy_ID" : NumberInt(17)
 }
 {
-    "_id" : ObjectId("5a1aedcb68d4683f5c8df046"),
-    "ProductName" : "BRI Nutrition Resveratrol Supplement",
-    "ProductDesc" : "Resveratrol is a beneficial compound often found in the skin of red grape seeds, juices, dates, berries and red wine, and is thought to have powerful antioxidant properties. Resveratrol is nature's way of making you feel great.",
-    "Source" : "Amazon",
-    "Price" : "22.69",
-    "OrderSize" : "60 Veggie Capsules",
-    "URL" : "https://www.amazon.com/BRI-Nutrition-Resveratrol-Strength-Supplement/dp/B00LPW9X32/ref=sr_1_1_sspa?s=hpc&ie=UTF8&qid=1511541646&sr=1-1-spons&keywords=Resveratrol&psc=1",
+    "_id" : ObjectId("5a1987bc68d468112ca97f20"),
+    "Remedy" : "Chlorella",
+    "Description" : "One of the most well known home remedies for meningitis is chlorella, a small plant that packs a major punch, namely due to its impressive chlorophyll content. Although chlorophyll is typically associated with plants and energy production, it is remarkably similar in structure to our own haemoglobin, and can therefore boost red blood cell production, which increases oxygenation, purifies the blood, and helps to speed up recovery and repair of the damage from meningitis.",
+    "illness" : "Meningitis",
     "Remedy_ID" : NumberInt(18)
 }
