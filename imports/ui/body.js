@@ -3,10 +3,6 @@ import { Ilnesses, Remedy, Products ,Reviews} from '../api/servercode.js';
 const readmore = require('readmore-js');
 
 
-
-
-
-
 import './body.html';
 
 
@@ -61,7 +57,6 @@ Template.body.helpers({
         console.log( Session.get("currentreview"));
         var temp = parseInt(Session.get('currentreview'));
         return Reviews.find({"Remedy_ID": temp });
-
     },
     //return list of illnesses to the autocomplete search
     illnessSearch: function() {
@@ -78,15 +73,21 @@ Template.body.helpers({
 
 Template.body.events({
     //capture onclick event for product button, store the ID and pass it to a session that will be read from the product helper function.
-    'click .remedy_button'(event) {
+      'click .remedy_button'(event) {
         // Prevent default browser form submit
         event.preventDefault();
         const target = event.target;
         Session.set("currentproduct", target.id);
-
+        if (target.id >= 13 && target.id <= 15) {
+            $("#product_only").hide();
+            $("#service_only").show();
+        } else {
+            $("#service_only").hide();
+            $("#product_only").show();
+        }
     },
 
-          'click .remedy_button2'(event) {
+      'click .remedy_button2'(event) {
         // Prevent default browser form submit
         event.preventDefault();
         const target = event.target;
